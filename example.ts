@@ -6,3 +6,5 @@ function addShipping(price: number, shipping: number): number | null {
 //         return price + shipping;
 //     }
 console.log(addShipping(10, 5));
+
+// LOL

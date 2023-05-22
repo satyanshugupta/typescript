@@ -23,3 +23,13 @@ var newAccount = {
 var new2Account;
 new2Account = [{ name: "55" }, { name: '' }];
 console.log(new2Account);
+///Classes
+var InvestmentAccount = /** @class */ (function () {
+    function InvestmentAccount(name, balance) {
+        this.name = name;
+        this.balance = balance;
+    }
+    InvestmentAccount.prototype.withdraw = function () {
+    };
+    return InvestmentAccount;
+}());

@@ -55,15 +55,3 @@ class InvestmentAccount implements IAccount {
 
     }
 }
-
-
-////// Generics
-
-
-class Queue {
-    private data = [];
-
-    add(item){
-        this.data.push(item);
-    }
-}
